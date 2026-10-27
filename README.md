@@ -2,6 +2,8 @@
 
 **A Linux proof of concept that transmits messages between two user-space processes through CPU scheduler contention—without using a conventional IPC channel to carry the message.**
 
+![photo](TerminalOutput.png)
+
 `C` · `Linux` · `Operating Systems` · `Systems Security` · `Covert Channels` · `Signal Processing`
 
 **[Technical write-up and interactive explanation](https://gowdark.pages.dev/projects/cpu-scheduler-covert-channel/)**
