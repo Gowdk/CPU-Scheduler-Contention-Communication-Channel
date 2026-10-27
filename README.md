@@ -137,7 +137,7 @@ Finished Channel/
 
 ## Why I built it
 
-I built this project after studying [operating-system](/https://umanitoba.ca/science/sites/science/files/2023-08/COMP-3430.pdf) scheduling and implementing a [multilevel feedback queue scheduler](/https://github.com/Gowdk/MLFQSimulation). I wanted to investigate an operating-system security question through **low-level C programming and experimentation**: can ordinary resource contention reveal information that the processes never directly exchange?
+I built this project after studying [operating-system](https://umanitoba.ca/science/sites/science/files/2023-08/COMP-3430.pdf) scheduling and implementing a [multilevel feedback queue scheduler](https://github.com/Gowdk/MLFQSimulation). I wanted to investigate an operating-system security question through **low-level C programming and experimentation**: can ordinary resource contention reveal information that the processes never directly exchange?
 
 The most interesting engineering problems were measuring contention accurately, synchronizing without IPC, distinguishing an intentional signal from noise, and maintaining enough state to reject invalid frames without losing track of the protocol.
 
